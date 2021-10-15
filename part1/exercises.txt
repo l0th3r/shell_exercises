@@ -1,0 +1,104 @@
+Exercises should be delivered as files following the naming
+scheme : "ex00.sh", inside a directory called "adminsys_01".  
+
+Each exercise gives a maximum of 1 point.  
+For each failed exercise, the points given by the following
+exercises are decreased by 10%.  
+
+If correct an error on the test programs, you earn an amount
+of points that's equal to the minimum value between 10% of your
+total of points and 10% of the points you don't have.  
+
+ex01: Hello world
+Write a script that outputs "Hello World" without using the words "Hello"
+or "World".  
+
+ex02: Star Wars
+Write a script that creates an file whose name is "a_new_hope" and whose
+modification date is May the 25th, 1977 that contains the text
+"Help me, Obi Wan Kenobi."  
+
+ex03: 112
+Write a script that writes 112 times the number 112.
+
+ex04: The 42th
+Print back only the 42th line from standard input.
+
+ex05: How much polite
+Print the number of lines that contain the word "Hello" from the input.
+
+ex06: A lot of commas
+Print the number of files that are csv files in the current folder (not recursively)
+
+ex07: In the comma
+Print the name of the csv file that has the highest amount of characters
+
+ex08: Weird
+Write back the last 2 characters of each line from the input, in the reverse order.
+Ex: "hello" => "ol"
+
+ex09: Stuck in a loop
+Write a script that reads no input, writes no output, and stays running indefinitely.
+
+ex10: Single line
+Read and single line from the standard input then print it back.
+
+ex11: I'm the shell now
+Read a line from the standard input then execute the corresponding command.
+
+ex12: Two lines into one
+Read two lines from the standard input then print them on a single line.
+
+Considering the file "data.csv" with the following file structure:
+Player,Level,Class
+with no empty line
+
+ex13: New player
+Read two lines from the standard input, the first line being the player name,
+the second one being the player class, then add the player at the end of the
+file, with the level 1.
+
+ex14: Top score
+Write the highest level.
+
+ex15: Top player
+Write the name of the player with the highest level.
+
+ex16: Total players
+Write the total number of players.
+
+ex17: Top class
+Write the name of the class that has the most players
+
+ex18: Player Info
+Read the name of a player from standard input, then return the level of the
+player.
+
+ex19: Choose your champion
+Read the name of a class from standard input, then return the name of a player
+of that class, chosen randomly.
+
+ex20: Level Down
+Read the name of a player from standard input, then change the level of that
+player to 0 in the file.
+
+You can use the following commands and features, don't hesitate to read the man:
+touch
+cat
+echo
+> >> < 2> | ``
+grep
+tac
+rev
+yes
+head
+tail
+cut
+du
+sort
+uniq
+file
+sed
+tee
+wc
+tr

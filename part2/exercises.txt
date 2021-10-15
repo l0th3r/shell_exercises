@@ -1,0 +1,48 @@
+ex01: Hello World
+Write a script that defines a variable $HELLO which contains World
+
+ex02: Universal Hello World
+Write a script that defines an environment variable $HELLO which
+contains World
+
+ex03: Hello you
+Write a script that prints Hello followed by the content of the environment
+variable $HELLO if it exists and isn't empty and prints Hello World otherwise
+
+ex04: Many Hellos
+Write a script that writes x lines of Hello, each followed by the number of 
+the line, x being the first parameter passed to the script.
+If there is no argument, print nothing.
+Example call:
+./ex04.sh 4
+Example output:
+1 Hello
+2 Hello
+3 Hello
+4 Hello
+
+ex05: Kept secret
+Write a script that creates a file named "secret" that only you are allowed to
+access.
+
+ex06: Many secrets
+Write a script that changes the permissions and owner of all files whose name end
+with ".secret" in the current folder, so only the root user can access them.
+Note: this script would have to be run as root.  
+
+ex07: Fix the broken hearts
+Write a script that removes all broken symbolic links in the current folder.
+
+ex08: Mass renaming
+Write a script that renames all files whose name contain a dash, by
+swapping what's before and after the dash, and keeping the extension.
+Example: Darude-Sandstorm.mp3 => Sandstrom-Darude.mp3
+
+ex09: Mass execution
+Write a script that executes all files that you are allowed to execute
+in the current folder.
+
+ex10: Waiting for Godot
+Write a script that runs until a file named "Godot" exists on the current
+directory. It should print "Waiting for Godot..." every second.
+
